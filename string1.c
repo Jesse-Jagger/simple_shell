@@ -67,7 +67,7 @@ void _puts(char *str)
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to written
- * Return: On success 1 on error, -1 is returned, and errno is set appropriately.
+ * Return: On success 1 on error, -1 is returned, and errno is well set
  */
 
 int _putchar(char c)
