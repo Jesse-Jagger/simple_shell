@@ -1,4 +1,4 @@
-#ifndef _SHELL_H_
+#ifndef _SHELL_H
 #define _SHELL_H_
 
 #include <stdio.h>
