@@ -28,7 +28,7 @@ void _eputs(char *str)
 
 int _eputchar(char c)
 {
-	static int j;
+	static int j,i;
 	static char buf[WRITE_BUF_SIZE];
 
 	if (c == BUF_FLUSH || j >= WRITE_BUF_SIZE)
