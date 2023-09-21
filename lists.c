@@ -91,7 +91,7 @@ size_t print_list_str(const list_t *h)
 		h = h->next;
 		j++;
 	}
-	return (i);
+	return (j);
 }
 
 /**
