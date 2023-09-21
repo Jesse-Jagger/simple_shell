@@ -131,7 +131,7 @@ char *convert_number(long int num, int base, int flags)
 
 void remove_comments(char *buf)
 {
-	intji;
+	int j;
 
 	for (j = 0; buf[j] != '\0'; j++)
 		if (buf[j] == '#' && (!j || buf[j - 1] == ' '))
