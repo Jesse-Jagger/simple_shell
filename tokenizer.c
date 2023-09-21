@@ -40,3 +40,5 @@ char **strtow(char *str, char *d)
 			free(s);
 			return (NULL);
 		}
+	}
+}
