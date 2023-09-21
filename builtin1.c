@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _myhistory - shows the history list, one command by line, preceded
+ * _myhistory - shows the history list, one command y line, preceded
  * with line numbers, starting at 0.
  * @info: Structure containing potential arguments
  * used to maintain constant function prototype.
